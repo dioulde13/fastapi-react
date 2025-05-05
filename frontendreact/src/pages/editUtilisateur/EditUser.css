@@ -1,0 +1,66 @@
+/* Centrage de la page */
+.edit-user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  /* Formulaire */
+  .edit-user-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .edit-user-form h2 {
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Champs */
+  .edit-user-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #374151;
+    font-weight: 500;
+  }
+  
+  .edit-user-form input {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .edit-user-form input:focus {
+    border-color: #3b82f6;
+    outline: none;
+  }
+  
+  /* Bouton */
+  .edit-user-form button {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-user-form button:hover {
+    background-color: #2563eb;
+  }
+  
